@@ -3,13 +3,12 @@ import { Input } from './ui/input';
 import { Textarea } from './ui/textarea';
 import { Badge } from './ui/badge';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from './ui/table';
-import { Alert, AlertDescription } from './ui/alert';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from './ui/tooltip';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './ui/select';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from './ui/dropdown-menu';
 import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle, DialogTrigger } from './ui/dialog';
 import { Checkbox } from './ui/checkbox';
-import { Settings, Users, Mail, ExternalLink, Download, Plus, X, TrendingUp, Calendar, UserPlus, Eye, Edit3, Upload, Palette, Monitor, Copy, CreditCard, Zap, CheckCircle, Star, MoreHorizontal, Edit, Trash2, BarChart3, Square } from 'lucide-react';
+import { Settings, Users, Mail, ExternalLink, Download, Plus, X, TrendingUp, UserPlus, Eye, Edit3, Palette, CreditCard, Zap, CheckCircle, Star, MoreHorizontal, Edit, Trash2, BarChart3, Square } from 'lucide-react';
 
 interface User {
   id: string;

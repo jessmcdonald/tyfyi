@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Input } from './ui/input';
-import { Alert, AlertDescription } from './ui/alert';
 import { User, Lock, Building } from 'lucide-react';
 import { User as UserType, authAPI } from '../utils/api';
 

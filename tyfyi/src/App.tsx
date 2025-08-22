@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Button } from "./components/ui/button";
 import { LandingPage } from "./components/LandingPage";
 import { RecruiterAuth } from "./components/RecruiterAuth";
 import { RecruiterDashboard } from "./components/RecruiterDashboard";
@@ -13,8 +12,6 @@ import {
   TalentPool,
   CandidateData,
   EnrichedCandidateData,
-  authAPI,
-  userAPI,
   subscriberAPI,
   talentPoolAPI,
   demoAPI,
