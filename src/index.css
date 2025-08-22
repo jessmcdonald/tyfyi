@@ -5063,3 +5063,31 @@ html {
     opacity: 0;
   }
 }
+
+/* Import custom styles */
+@import './styles/globals.css';
+
+/* Custom geometric utility classes */
+.geometric-block {
+  border: 2px solid #000000;
+  background-color: #ffffff;
+}
+
+.geometric-block-inverse {
+  border: 2px solid #000000;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.geometric-accent {
+  background-color: var(--accent);
+  color: var(--accent-foreground);
+}
+
+.geometric-shadow {
+  box-shadow: 8px 8px 0px 0px #000000;
+}
+
+.geometric-shadow-small {
+  box-shadow: 4px 4px 0px 0px #000000;
+}
